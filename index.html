@@ -16,13 +16,16 @@
       background-color: #4CAF50;
       color: white;
       padding: 20px;
+    }
+    .header-content {
       display: flex;
-      align-items: center;
-      justify-content: space-between;
+      flex-direction: column;
+      align-items: flex-start;
     }
     .logo {
       font-size: 1.8em;
       font-weight: bold;
+      margin-bottom: 10px;
     }
     nav {
       display: flex;
@@ -52,12 +55,14 @@
 </head>
 <body>
   <header>
-    <div class="logo">🌳 Green Tree Baking</div>
-    <nav>
-      <a href="#cupcakes">Cupcakes</a>
-      <a href="#muffins">Muffins</a>
-      <a href="#pies">Pies</a>
-    </nav>
+    <div class="header-content">
+      <div class="logo">🌳 Green Tree Baking</div>
+      <nav>
+        <a href="#cupcakes">Cupcakes</a>
+        <a href="#muffins">Muffins</a>
+        <a href="#pies">Pies</a>
+      </nav>
+    </div>
   </header>
   <main>
     <h1>Welcome to Green Tree Baking!</h1>
